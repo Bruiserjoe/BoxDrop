@@ -18,7 +18,6 @@ public:
 };
 
 bool paused = false;
-bool exitf = false;
 int px = 400;
 int py = 300;
 int score = 0;
