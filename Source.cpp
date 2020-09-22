@@ -4,6 +4,10 @@
 #include <time.h>
 #include "olcPixelGameEngine.h"
 
+// Credit to Javidx9 for OlcPixelGameEngine
+// Download it here 
+// https://github.com/OneLoneCoder/olcPixelGameEngine
+
 class Dropping {
 public:
 	int x;
@@ -14,7 +18,6 @@ public:
 };
 
 bool paused = false;
-bool exitf = false;
 int px = 400;
 int py = 300;
 int score = 0;
